@@ -1,0 +1,11 @@
+name: Belajar Github Action
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!"
+      - run: echo "This is my first Github Action"
+      - run: echo "I'm learning how to use Github Action"
